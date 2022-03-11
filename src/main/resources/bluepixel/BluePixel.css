@@ -1,0 +1,41 @@
+root {
+    display: block;
+}
+.root{
+    -fx-background-color: #5d8ba0;
+}
+
+.label{
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00455a;
+}
+
+#bluepixeltitle {
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #0359bc ;
+    -fx-alignment: center;
+    -fx-padding: 50px;
+}
+
+#extracttitle, #inserttitle{
+    -fx-font-size: 20px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #105d7d;
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+.button {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: #00455a;
+}
+
+#extractWarning {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-fill: #950a0a;
+}
