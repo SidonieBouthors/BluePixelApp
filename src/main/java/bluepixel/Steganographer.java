@@ -17,7 +17,7 @@ public final class Steganographer {
                 int pixel = image.getRGB(j, i);
                 symbol = (symbol << 1) | (pixel & 1);
                 if (++counter == Character.SIZE) {
-                    message.append((char) symbol);
+                    message.append((char)  symbol);
                     symbol = counter = 0;
                 }
             }
